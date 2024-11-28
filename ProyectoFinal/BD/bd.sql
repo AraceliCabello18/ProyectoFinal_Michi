@@ -24,3 +24,9 @@ CREATE TABLE `t_gatos` (
     `esperanzaVida` varchar(245) NOT NULL,
     PRIMARY KEY (`id_gatos`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `t_gatos` (`id_gatos`, `raza`, `descripcion`, `caracter`, `origen`, `tamano`, `peso`, `esperanzaVida`) VALUES
+ ('', 'gato bombay', 'Cola gruesa, Orejas grandes, Fuerte, pelo Corto', 'Extrovertido, Afectuoso, Inteligente, Calmado', 'América, Estados Unidos', 'Mediano', '3-5 kg', '12-16 años'),
+ ('', 'Gato toyger', 'Cola fina, Orejas pequeñas, Fuerte, pelo Corto', 'Activo, Extrovertido, Afectuoso, Inteligente, Curioso', 'América, Estados Unidos', 'Mediano', '3-5 kg', '10-15 años'),
+ ('', 'Gato azul ruso', 'Cola fina, Orejas grandes, Fuerte, Fino. pelo Corto', 'Afectuoso, Inteligente, Curioso, Calmado', 'Asia, Rusia', 'Mediano', '3-5 kg', '10-15 años'),
+ ('', 'Gato Siamés', 'Cola fina, Fuerte, Fino, pelo corto', 'Activo, Extrovertido, Afectuoso, Inteligente, Curioso', 'Asia, Tailandia', 'Mediano', '3-5 kg', '15-18 años');
